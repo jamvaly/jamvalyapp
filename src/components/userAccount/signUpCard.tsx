@@ -7,7 +7,7 @@ import { Checkbox } from "@nextui-org/checkbox";
 import { Link } from "@nextui-org/link";
 import { useState } from "react";
 import { auth } from "../../config/firebaseConfig";
-import { signInWithEmailAndPassword } from "firebase/auth"
+import { signInWithEmailAndPassword, signOut } from "firebase/auth"
 
 interface SignUpCardProps {
   onSignInSuccess: () => void;
@@ -31,10 +31,14 @@ const SignUpCard: React.FC<SignUpCardProps> = ({ onSignInSuccess }) => {
       const userCredential = await signInWithEmailAndPassword(auth, credentials.email, credentials.password);
       const user = userCredential.user;
       setUser(user);
-      onSignInSuccess(); // Trigger callback on successful sign-in
+      onSignInSuccess();
       onClose();
     } catch (error) {
-      alert(error.message);
+      if (error instanceof Error) {
+        alert(error.message);
+      } else {
+        alert('An unknown error occurred');
+      }
     }
   };
 
