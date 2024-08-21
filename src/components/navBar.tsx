@@ -25,7 +25,7 @@ export default function NavBar() {
       <NavbarContent className="pr-3" justify="center">
         <NavbarBrand>
           <img
-            src="../../public/jamvaly-logo.svg"
+            src="jamvaly-logo.svg"
             alt="Jamvaly"
             width={"40px"}
             height={"40px"}
