@@ -9,7 +9,7 @@ export default function RoomCard() {
     {
       title: "Standard Room",
       icon: <BedIcon />,
-      img: "../../public/images/Standard.png",
+      img: "images/Standard.png",
       price: "25,500",
       tags: [
         {
@@ -25,7 +25,7 @@ export default function RoomCard() {
     {
       title: "Presidential Suite",
       icon: <CrownIcon />,
-      img: "../../public/images/Presidential.png",
+      img: "images/Presidential.png",
       price: "85,300",
       tags: [
         {
@@ -45,7 +45,7 @@ export default function RoomCard() {
     {
       title: "VIP Suite",
       icon: <CheckIcon />,
-      img: "../../public/images/Vip.png",
+      img: "images/Vip.png",
       price: "55,550",
       tags: [
         {
@@ -65,7 +65,7 @@ export default function RoomCard() {
     {
       title: "Business Suite",
       icon: <BriefCaseIcon />,
-      img: "../../public/images/business.png",
+      img: "images/business.png",
       price: "45,250",
       tags: [
         {

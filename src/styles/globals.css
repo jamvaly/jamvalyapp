@@ -39,12 +39,12 @@
   }
   @font-face {
     font-family: 'Acme';
-    src: url('../../public/fonts/Acme-Regular.ttf') format('truetype');
+    src: url('fonts/Acme-Regular.ttf') format('truetype');
     font-weight: 400;
   }
   @font-face {
     font-family: 'cuprum';
-    src: url('../../public/fonts/Cuprum-Bold.ttf') format('truetype');
+    src: url('fonts/Cuprum-Bold.ttf') format('truetype');
     font-weight: bold;
   }
   .transition-color{

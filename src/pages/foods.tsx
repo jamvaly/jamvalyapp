@@ -13,32 +13,32 @@ interface FoodItem {
 const breakfastItems: FoodItem[] = [
   {
     title: "Chips Omelet",
-    img: "../../public/images/dinner/chip-omlette.png",
+    img: "images/dinner/chip-omlette.png",
     price: "3,000",
   },
   {
     title: "Bread, Sadden",
-    img: "../../public/images/dinner/bread-sadden.png",
+    img: "images/dinner/bread-sadden.png",
     price: "2,000",
   },
   {
     title: "Plain Toast Bread",
-    img: "../../public/images/dinner/platain-bread.png",
+    img: "images/dinner/platain-bread.png",
     price: "600",
   },
   {
     title: "Bread & Tea",
-    img: "../../public/images/dinner/bread-tea.png",
+    img: "images/dinner/bread-tea.png",
     price: "1,200",
   },
   {
     title: "Only Tea",
-    img: "../../public/images/dinner/tea.png",
+    img: "images/dinner/tea.png",
     price: "600",
   },
   {
     title: "Custard / Milk",
-    img: "../../public/images/dinner/custard.png",
+    img: "images/dinner/custard.png",
     price: "1,500",
   },
 ];
@@ -46,32 +46,32 @@ const breakfastItems: FoodItem[] = [
 const dinnerItems: FoodItem[] = [
   {
     title: "Only Fried Rice",
-    img: "../../public/images/dinner/fried-rice.png",
+    img: "images/dinner/fried-rice.png",
     price: "1,000",
   },
   {
     title: "White Rice, Stew with Beans & Chicken",
-    img: "../../public/images/dinner/rice-stew.png",
+    img: "images/dinner/rice-stew.png",
     price: "4,500",
   },
   {
     title: "Only Jollof Rice",
-    img: "../../public/images/dinner/jallof.png",
+    img: "images/dinner/jallof.png",
     price: "1,500",
   },
   {
     title: "Beef Pepper Soup with Chips",
-    img: "../../public/images/dinner/pepper-soup.png",
+    img: "images/dinner/pepper-soup.png",
     price: "2,500",
   },
   {
     title: "Tuwo Rice Draw, Goat Meat or Beef",
-    img: "../../public/images/dinner/tuwo.png",
+    img: "images/dinner/tuwo.png",
     price: "3,500",
   },
   {
     title: "Jollof Spaghetti, Chicken or Fish",
-    img: "../../public/images/dinner/spagetti.png",
+    img: "images/dinner/spagetti.png",
     price: "3,500",
   },
 ];
