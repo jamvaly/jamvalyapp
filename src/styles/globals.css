@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Playwrite';
+    src: url('/fonts/Playwrite.ttf') format('truetype');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('/fonts/PlusJakartaSans.ttf') format('truetype');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik.ttf') format('truetype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Sharp';
+    src: url('/fonts/sharp.ttf') format('truetype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Mukta';
+    src: url('/fonts/Mukta-Medium.ttf') format('truetype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Merri';
+    src: url('fonts/Merriweather-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans.ttf') format('truetype');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Acme';
+    src: url('../../public/fonts/Acme-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'cuprum';
+    src: url('../../public/fonts/Cuprum-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  .transition-color{
+    transition: 0.1s;
+  }
+  /* In your global CSS file */
