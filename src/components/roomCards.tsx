@@ -25,7 +25,7 @@ export default function RoomCard() {
     {
       title: "Presidential Suite",
       icon: <CrownIcon />,
-      img: "images/Presidential.png",
+      img: "images/presidential.png",
       price: "85,300",
       tags: [
         {
@@ -45,7 +45,7 @@ export default function RoomCard() {
     {
       title: "VIP Suite",
       icon: <CheckIcon />,
-      img: "images/Vip.png",
+      img: "images/vip.png",
       price: "55,550",
       tags: [
         {

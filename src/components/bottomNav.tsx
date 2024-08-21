@@ -105,7 +105,7 @@ export default function BottomNav() {
   };
 
   return (
-    <div className="flex w-full justify-between px-5 items-center rounded-t-2xl backdrop-blur-sm bg-background/90 fixed bottom-0 left-0 h-11 z-0">
+    <div className="flex w-full justify-between px-5 items-center backdrop-blur-sm bg-background/90 fixed bottom-0 left-0 h-11 z-0">
       <NavItem
         itemName="Home"
         selected={selectedItem === 'Home'}
